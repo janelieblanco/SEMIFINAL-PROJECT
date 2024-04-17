@@ -76,12 +76,12 @@ public class GradingSystem {
                 case 3: // Exit the program
                     System.out.println("The program has stopped. Thank you for using Jane's Grading App!");
                     decision = false;
-                    System.exit(0);
+                    System.exit(0); // to stop the loop and exit the program
                     break;
 
                 default: // Invalid option
                     System.out.println("Invalid option. Choose only the given options above.");
-                    System.exit(0);
+                    System.exit(0); // to stop the loop when the user inputs number except for 1,2,3.
                     break;
             }
 
